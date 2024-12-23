@@ -1,0 +1,19 @@
+# modules
+node_modules
+.vscode*
+
+# build the dist folder
+dist
+build
+
+# logs
+*.log
+*.pid
+*.seed
+
+# Environment files
+.env
+.env.example
+.env.local
+.env.development
+.env.test
