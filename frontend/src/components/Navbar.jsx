@@ -1,7 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { LogOut, reset } from "../features/authSlice";
+// import { useNavigate } from "react-router-dom";
+// import { useDispatch, useSelector } from "react-redux";
+// import { LogOut, reset } from "../features/authSlice";
 
 const Navbar = ({ children }) => {
   // const dispatch = useDispatch();
