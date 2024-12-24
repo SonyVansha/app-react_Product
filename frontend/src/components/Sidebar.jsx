@@ -28,6 +28,7 @@ const Sidebar = () => {
           width="40"
         />
       </div>
+      
       {/* <!-- Sidebar Nav --> */}
       <div class="space-y-8 flex flex-col items-center">
           <NavLink to={"/dashboard"}>

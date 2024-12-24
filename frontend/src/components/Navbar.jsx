@@ -1,19 +1,18 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
-import logo from "../sony.png";
+import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { LogOut, reset } from "../features/authSlice";
 
 const Navbar = ({ children }) => {
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
-  const { user } = useSelector((state) => state.auth);
+  // const dispatch = useDispatch();
+  // const navigate = useNavigate();
+  // const { user } = useSelector((state) => state.auth);
 
-  const logout = () => {
-    dispatch(LogOut());
-    dispatch(reset());
-    navigate("/");
-  };
+  // const logout = () => {
+  //   dispatch(LogOut());
+  //   dispatch(reset());
+  //   navigate("/");
+  // };
 
   return (
     <div className="flex justify-between items-center mb-6">
